@@ -15,7 +15,7 @@ python video_analyzer.py <path_to_video>
 ```mermaid
 flowchart LR
     User([User])
-    subgraph Video Analyzer
+    subgraph VA [Video Analyzer]
         UC1([Invoke FFprobe])
         UC2([Parse Container Info])
         UC3([Parse Video Stream])
