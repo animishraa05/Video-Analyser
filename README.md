@@ -13,14 +13,14 @@ python video_analyzer.py <path_to_video>
 
 ## System Workflow / Use Case
 ```mermaid
-flowchart LR
-    User([User])
+graph LR
+    User(User)
     subgraph VA [Video Analyzer]
-        UC1([Invoke FFprobe])
-        UC2([Parse Container Info])
-        UC3([Parse Video Stream])
-        UC4([Parse Audio Stream])
-        UC5([Generate Output Report])
+        UC1(Invoke FFprobe)
+        UC2(Parse Container Info)
+        UC3(Parse Video Stream)
+        UC4(Parse Audio Stream)
+        UC5(Generate Output Report)
     end
     
     User -->|Provides Video| UC1
