@@ -16,16 +16,7 @@ python video_analyzer.py <path_to_video>
 
 ## Workflow
 
-```mermaid
-graph LR
-    A[User] -->|Provides Video Path| B[Run ffprobe]
-    B --> C[Parse Container Info]
-    B --> D[Parse Video Stream]
-    B --> E[Parse Audio Stream]
-    C --> F[Print Report]
-    D --> F[Print Report]
-    E --> F[Print Report]
-```
+![Workflow Diagram](diagram.png)
 
 ## Sample Output
 ```
