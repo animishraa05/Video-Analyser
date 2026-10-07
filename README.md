@@ -12,7 +12,7 @@ python video_analyzer.py <path_to_video>
 
 ## Sample File Used
 
-▶️ [sample.mp4](sample.mp4) — Big Buck Bunny clip (771 KB, H.264/AAC)
+[sample.mp4](sample.mp4) — Big Buck Bunny clip (771 KB, H.264/AAC)
 
 ## Workflow
 
